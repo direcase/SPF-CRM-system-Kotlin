@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
                     if (task.isSuccessful) {
                         // Sign in success, update UI with the signed-in user's information
                         println("Signed In Successful")
-                        val intent=Intent(this, MainActivity2::class.java)
+                        val intent=Intent(this, ProductActivity::class.java)
                         startActivity(intent)
 
                         Toast.makeText(

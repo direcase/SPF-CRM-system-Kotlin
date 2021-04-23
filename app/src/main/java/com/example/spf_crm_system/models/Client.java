@@ -1,4 +1,4 @@
-package com.example.spf_crm_system;
+package com.example.spf_crm_system.models;
 
 public class Client {
     long id;
