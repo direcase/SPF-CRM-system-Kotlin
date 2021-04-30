@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:background="@color/blue"
     android:layout_height="match_parent"
-    android:id="@+id/dl"
+    android:id="@+id/dlOrder"
     android:orientation="vertical">
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -16,17 +16,18 @@
         tools:context=".activities.ProductActivity">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/product_list"
+            android:id="@+id/orders_list"
             android:layout_width="354dp"
             android:layout_height="637dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </RelativeLayout>
+
     <com.google.android.material.navigation.NavigationView
         android:layout_width="wrap_content"
         android:layout_height="match_parent"
-        android:id="@+id/navView"
+        android:id="@+id/navView2"
         app:headerLayout="@layout/navbar"
         app:menu="@menu/narbar_menu"
         android:layout_gravity="start"/>

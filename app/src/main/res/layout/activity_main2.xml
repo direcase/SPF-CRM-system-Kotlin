@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
 
     android:background="@color/blue"
-    tools:context=".MainActivity2">
+    tools:context=".activities.MainActivity2">
 
 
     <androidx.recyclerview.widget.RecyclerView

@@ -1,4 +1,4 @@
-package com.example.spf_crm_system
+package com.example.spf_crm_system.activities
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
@@ -6,6 +6,8 @@ import android.os.Bundle
 import android.widget.Button
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.example.spf_crm_system.R
+import com.example.spf_crm_system.adapters.ClientAdapter
 import com.example.spf_crm_system.models.Client
 
 class MainActivity2 : AppCompatActivity() {
@@ -20,7 +22,7 @@ class MainActivity2 : AppCompatActivity() {
         clients= listOf(client)
 
         val clients_list=findViewById<RecyclerView>(R.id.clients_list)
-        val clientsAdapter=ClientAdapter(this,clients)
+        val clientsAdapter= ClientAdapter(this, clients)
 
         clients_list.adapter=clientsAdapter
         clients_list.layoutManager=LinearLayoutManager(this)

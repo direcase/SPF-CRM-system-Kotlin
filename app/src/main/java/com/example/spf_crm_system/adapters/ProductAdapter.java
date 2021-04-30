@@ -1,4 +1,4 @@
-package com.example.spf_crm_system;
+package com.example.spf_crm_system.adapters;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,6 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.example.spf_crm_system.R;
 import com.example.spf_crm_system.models.Product;
 
 import java.util.List;

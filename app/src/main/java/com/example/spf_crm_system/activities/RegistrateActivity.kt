@@ -1,4 +1,4 @@
-package com.example.spf_crm_system
+package com.example.spf_crm_system.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
